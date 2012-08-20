@@ -1,6 +1,7 @@
 <?php
 
 class Item {
+	use NamedBindingTrait;
 	private $id;
 	private $name;
 	private $code;
@@ -10,9 +11,6 @@ class Item {
 	private $cost;
 	private $mtime;
 	private $ctime;
-	public static function get($item_id){
-		
-	}
 }
 
 ?>
