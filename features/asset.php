@@ -1,7 +1,8 @@
 <?php
+namespace Features;
 
 class Asset {
-	use NamedBindingTrait;
+	use \Traits\NamedDataBinding;
 	private $id;
 	private $hash;
 	private $type_id;

@@ -1,7 +1,8 @@
 <?php
+namespace Features;
 
 class Product {
-	use NamedBindingTrait;
+	use \Traits\NamedDataBinding;
 	private $id;
 	private $name;
 	private $description;

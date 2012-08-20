@@ -1,7 +1,8 @@
 <?php
+namespace Features;
 
 class Item {
-	use NamedBindingTrait;
+	use \Traits\NamedDataBinding;
 	private $id;
 	private $name;
 	private $code;
